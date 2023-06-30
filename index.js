@@ -17,7 +17,7 @@ app.post("/data",async (req,res)=>{
         url: 'https://trains.p.rapidapi.com/',
         headers: {
           'content-type': 'application/json',
-          'X-RapidAPI-Key': 'your key',
+          'X-RapidAPI-Key': 'c0d63673d5msh194eb46ffb49d79p1c9340jsn47bece833828',
           'X-RapidAPI-Host': 'trains.p.rapidapi.com'
         },
         data: {search: `${value}`}
